@@ -7,6 +7,7 @@ Scope: mostly AI/ML-adjacent CVEs (model-serving frameworks, inference libraries
 ## Cases
 
 - [`llama-cpp-python-cve-2024-34359`](./llama-cpp-python-cve-2024-34359/) — unsandboxed Jinja2 chat-template rendering (SSTI, CWE-94/1336). Fixed in `0.2.72`.
+- [`ray-cve-2025-62593`](./ray-cve-2025-62593/) — Ray Jobs API ships with no authentication by default, still true on the current latest release (`2.59.0`) at time of writing. CISA KEV-listed, actively exploited. Mitigation is an opt-in config (`RAY_AUTH_MODE=token`), not a version bump - the lab's structure reflects that (one image, two configs, not two images).
 
 ## Standing rules for every case added here
 
