@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="cve_lab.png" width="500" alt="CVE Lab artwork: a magnifying glass reveals a fractured chip beside an intact chip">
+</p>
+
 # cve_lab
 
 Real CVE reproductions, one per directory: faithful Docker-based repro of the exploitable condition, the real upstream fix applied and verified, and two-part verification (a functionality test that the fix doesn't break the feature, a vulnerability test that the hole is actually closed). Built to demonstrate the exact work a vulnerability-reproduction/remediation QA role evaluates - reproduction fidelity, fix soundness, verification rigor - on real code, not described.
