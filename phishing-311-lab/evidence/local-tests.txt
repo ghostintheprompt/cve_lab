@@ -1,0 +1,20 @@
+✔ fragment preserved separately from request URL (0.611417ms)
+✔ different fragments share request URL (0.067458ms)
+✔ non-HTTP scheme rejected (0.089584ms)
+✔ embedded credentials rejected (0.048125ms)
+✔ client script writes literal text in a stub DOM (0.441291ms)
+✔ empty fragment has explicit display (0.227541ms)
+✔ loopback fetch strips fragment and serves same body (15.212042ms)
+✔ submission alone leaves action unknown (0.152583ms)
+✔ 404 does not prove takedown (0.086583ms)
+✔ missing evidence rejected (0.085416ms)
+✔ bad status rejected (0.050291ms)
+✔ follow-up before report rejected (0.036625ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 80.1125

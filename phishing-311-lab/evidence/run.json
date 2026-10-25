@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-25",
+  "runtime": "Node.js v24.20.0",
+  "tests_passed": 12,
+  "scope": "Loopback HTTP plus local URL, stub-DOM JavaScript, and synthetic reporting records. No external provider test.",
+  "sha256": {
+    "lab.mjs": "4ad912700f0dcd4b8ee32e3f5c2a7ac4669efe22c9780acfae8be898923b2b87",
+    "test.mjs": "5ea917262092840133b84413060cd73b1f749f12de2c4723962668b480abf841",
+    "evidence/local-tests.txt": "ce9c0c15af1374d2acb24356296eb491d879e701253e066623882f1e69fdb5bc"
+  }
+}
