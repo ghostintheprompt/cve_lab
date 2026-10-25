@@ -1,0 +1,23 @@
+✔ classifier leaves reasons and exposes a semantic miss (0.49225ms)
+✔ training quotation produces a visible false positive (0.0515ms)
+✔ cloud hostname and table alone do not trigger candidate (0.041875ms)
+✔ evaluation reports both errors without hiding individual cases (0.330083ms)
+✔ baseline and candidate are scored on same fixtures (0.09825ms)
+✔ empty metrics remain undefined (0.039541ms)
+✔ invalid labels rejected (0.08975ms)
+✔ ground truth is withheld from application state (0.261041ms)
+✔ release preserves exact original and permits re-quarantine (0.632667ms)
+✔ report receipt is idempotent and keeps provider unknown (0.226458ms)
+✔ out-of-order resolution rejected (0.070291ms)
+✔ valid review workflow has explicit local closure (0.374084ms)
+✔ unknown actions and IDs rejected (0.076167ms)
+✔ state survives restart (0.566792ms)
+✔ HTTP UI and API enforce local mutation boundary (24.591125ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 79.9945

@@ -1,0 +1,14 @@
+[
+ {"id":"p1","label":"phishing","sender":"Helpdesk <help@example.test>","subject":"Verify your password immediately","body":"Your account will close. Send your password to restore access.","html":"<form action='https://example.test'><input name='password'></form>"},
+ {"id":"p2","label":"phishing","sender":"Billing <billing@example.test>","subject":"Payment problem","body":"Buy gift cards to unlock your account.","html":"<a href='https://example.test/#unique'>Review membership</a>"},
+ {"id":"p3","label":"phishing","sender":"Support <support@example.test>","subject":"Remote assistance","body":"Install remote access software and send your one-time code.","html":"<img src='https://example.test/tracker'><script>alert(1)</script>"},
+ {"id":"p4","label":"phishing","sender":"Director <director@example.test>","subject":"Urgent wire transfer","body":"Change the bank details. Do not call me; this must remain secret."},
+ {"id":"p5","label":"phishing","sender":"Storage <storage@example.test>","subject":"Your files","body":"Account will close today. Confirm your password.","html":"<table><tr><td><a href='https://storage.googleapis.com/example.invalid/#token'>Review</a></td></tr></table>"},
+ {"id":"p6","label":"phishing","sender":"Colleague <colleague@example.test>","subject":"Notes","body":"The blue notebook is ready at the usual place."},
+ {"id":"b1","label":"benign","sender":"Clinic <clinic@example.test>","subject":"Appointment reminder","body":"Your appointment is tomorrow. Use the number on your existing paperwork for changes."},
+ {"id":"b2","label":"benign","sender":"Security training <training@example.test>","subject":"Verify your password: a phrase to avoid","body":"Training example: never send your password or a one-time code to a stranger."},
+ {"id":"b3","label":"benign","sender":"Shop <shop@example.test>","subject":"Patio furniture sale","body":"Our seasonal sale is here.","html":"<table><tr><td>Patio furniture</td></tr></table>"},
+ {"id":"b4","label":"benign","sender":"Files <files@example.test>","subject":"Project files","body":"The public diagram is ready.","html":"<a href='https://storage.googleapis.com/example.invalid/diagram'>Diagram</a>"},
+ {"id":"b5","label":"benign","sender":"Receipts <receipt@example.test>","subject":"Payment received","body":"Your payment was received. No action required."},
+ {"id":"b6","label":"benign","sender":"Library <library@example.test>","subject":"Book ready","body":"Your reserved book is ready for collection."}
+]

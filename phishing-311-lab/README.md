@@ -1,6 +1,6 @@
-# Report Phishing, Call 311
+# The Duelist
 
-A local URL-fragment and reporting-evidence lab. Node.js 22 or later; no packages, account, API key, browser extension, or cloud deployment.
+A local URL-fragment and reporting-evidence lab. The [quarantine prototype](PROTOTYPE.md) now adds a browser interface, persistent local receipts, recovery, and a scored synthetic evaluation. Node.js 22 or later; no packages, account, API key, browser extension, or cloud deployment.
 
 ```sh
 node --test test.mjs

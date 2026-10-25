@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-25",
+  "node": "v24.20.0",
+  "automated_tests": 27,
+  "browser_observations": [
+    "HTML source displayed as text",
+    "received to reviewing to resolved_locally",
+    "provider action UNKNOWN",
+    "training false positive released to local inbox"
+  ],
+  "scope": "Synthetic loopback prototype; no live mail, provider, model, or older-user study.",
+  "sha256": {
+    "quarantine.mjs": "275706e76d1ed9afd334e7b0ea54e0c64b17bc60b7eb1820166c02a207919da0",
+    "fixtures.json": "b9a1c13a76a5603ac1a60b4fdb22515b343cb6b810e115edbc419c336230dca8",
+    "evaluate.mjs": "5dcf1fb2a174730b2cb97961fae17492a53373105409bd06822f58fc3467c0b3",
+    "app.js": "ccc495e2dfd860904e1042aabd3173ba940199941f8a59dc692c6ca188526ec4",
+    "server.mjs": "8f75e9af580329b7b2de5fe515f2af33cc349c295fe10987836f8f28cb7fe002",
+    "quarantine.test.mjs": "d5f495672fa5f1d9f4b0cdc5a475fe1082603af649b33edc7368a5812ae9f314",
+    "evidence/evaluation.json": "bcb4ec8f19d9d8061c7cd76f3991e812dab0b886e9a10e97a625d02e60eb25f6",
+    "evidence/combined-tests.txt": "6c9d6f2039d1fdca9770ac0fa95f85de476c8f78b77c0090ad7f474e5ec63084",
+    "evidence/prototype-browser.png": "874e968f427f702922784035e73b15e523d65838880753da06a016acfa5482cb"
+  }
+}

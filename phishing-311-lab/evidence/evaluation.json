@@ -1,0 +1,168 @@
+{
+  "scope": "Hand-authored synthetic fixtures; no email provider or real-user test. Labels are authored scenario intent, not inferred ground truth.",
+  "fixtures_sha256": "9f36e2bbcd89c90fcb68f95d534460f7bfc10257577966e485a17b35e51173ef",
+  "baseline": {
+    "tp": 2,
+    "fp": 1,
+    "tn": 5,
+    "fn": 4,
+    "precision": 0.6666666666666666,
+    "recall": 0.3333333333333333,
+    "cases": [
+      {
+        "id": "p1",
+        "label": "phishing",
+        "decision": "quarantine",
+        "result": "tp"
+      },
+      {
+        "id": "p2",
+        "label": "phishing",
+        "decision": "inbox",
+        "result": "fn"
+      },
+      {
+        "id": "p3",
+        "label": "phishing",
+        "decision": "inbox",
+        "result": "fn"
+      },
+      {
+        "id": "p4",
+        "label": "phishing",
+        "decision": "quarantine",
+        "result": "tp"
+      },
+      {
+        "id": "p5",
+        "label": "phishing",
+        "decision": "inbox",
+        "result": "fn"
+      },
+      {
+        "id": "p6",
+        "label": "phishing",
+        "decision": "inbox",
+        "result": "fn"
+      },
+      {
+        "id": "b1",
+        "label": "benign",
+        "decision": "inbox",
+        "result": "tn"
+      },
+      {
+        "id": "b2",
+        "label": "benign",
+        "decision": "quarantine",
+        "result": "fp"
+      },
+      {
+        "id": "b3",
+        "label": "benign",
+        "decision": "inbox",
+        "result": "tn"
+      },
+      {
+        "id": "b4",
+        "label": "benign",
+        "decision": "inbox",
+        "result": "tn"
+      },
+      {
+        "id": "b5",
+        "label": "benign",
+        "decision": "inbox",
+        "result": "tn"
+      },
+      {
+        "id": "b6",
+        "label": "benign",
+        "decision": "inbox",
+        "result": "tn"
+      }
+    ]
+  },
+  "candidate": {
+    "tp": 5,
+    "fp": 1,
+    "tn": 5,
+    "fn": 1,
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "cases": [
+      {
+        "id": "p1",
+        "label": "phishing",
+        "decision": "quarantine",
+        "result": "tp"
+      },
+      {
+        "id": "p2",
+        "label": "phishing",
+        "decision": "quarantine",
+        "result": "tp"
+      },
+      {
+        "id": "p3",
+        "label": "phishing",
+        "decision": "quarantine",
+        "result": "tp"
+      },
+      {
+        "id": "p4",
+        "label": "phishing",
+        "decision": "quarantine",
+        "result": "tp"
+      },
+      {
+        "id": "p5",
+        "label": "phishing",
+        "decision": "quarantine",
+        "result": "tp"
+      },
+      {
+        "id": "p6",
+        "label": "phishing",
+        "decision": "inbox",
+        "result": "fn"
+      },
+      {
+        "id": "b1",
+        "label": "benign",
+        "decision": "inbox",
+        "result": "tn"
+      },
+      {
+        "id": "b2",
+        "label": "benign",
+        "decision": "quarantine",
+        "result": "fp"
+      },
+      {
+        "id": "b3",
+        "label": "benign",
+        "decision": "inbox",
+        "result": "tn"
+      },
+      {
+        "id": "b4",
+        "label": "benign",
+        "decision": "inbox",
+        "result": "tn"
+      },
+      {
+        "id": "b5",
+        "label": "benign",
+        "decision": "inbox",
+        "result": "tn"
+      },
+      {
+        "id": "b6",
+        "label": "benign",
+        "decision": "inbox",
+        "result": "tn"
+      }
+    ]
+  }
+}
