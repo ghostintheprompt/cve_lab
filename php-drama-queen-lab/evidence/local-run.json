@@ -1,0 +1,71 @@
+{
+  "recorded_at": "2026-10-25T12:44:25.762024+00:00",
+  "scope": "One HTTP process observation per image; no exploit or all-worker claim",
+  "probe_sha256": "ea7624028efea55041a2ad1223d1b33f507a99ffde9b51624f08bf52d7b82552",
+  "services": {
+    "before": {
+      "observation": {
+        "version": "8.4.26",
+        "version_id": 80426,
+        "sapi": "apache2handler",
+        "worker_pid": 17,
+        "memory_limit": "128M",
+        "session_upload_progress_enabled": true,
+        "session_serialize_handler": "php"
+      },
+      "assessment": {
+        "policy_reviewed_on": "2026-10-25",
+        "source": "https://www.php.net/archive/2026.php#2026-10-21-5",
+        "release_evidence": "BELOW_UPSTREAM_BASELINE",
+        "worker_coverage": "ONE_OBSERVATION_ONLY",
+        "exploit_tested": false,
+        "notes": [
+          "Update or obtain explicit vendor-backport evidence; version alone cannot evaluate a backport.",
+          "The Oct 23 serializer-switch condition requires application/configuration review; this snapshot cannot detect it.",
+          "Self-reported process data; sample every relevant pool/image/worker cohort and verify package provenance independently."
+        ],
+        "upload_progress_review": "REVIEW_OCT23_ADVISORY"
+      },
+      "image_id": "sha256:aa144fad717630ccf05ebd8ee98a4673411aa35d91ac99dc9617d71ef2759967",
+      "base_image": "php@sha256:60111400ff77bdc44fa79b4f072afe49a42abba71e0846ad496be4761dc9c11a",
+      "repo_digests": [
+        "drama-queen-lab-before@sha256:aa144fad717630ccf05ebd8ee98a4673411aa35d91ac99dc9617d71ef2759967"
+      ]
+    },
+    "after": {
+      "observation": {
+        "version": "8.4.27",
+        "version_id": 80427,
+        "sapi": "apache2handler",
+        "worker_pid": 17,
+        "memory_limit": "128M",
+        "session_upload_progress_enabled": false,
+        "session_serialize_handler": "php"
+      },
+      "assessment": {
+        "policy_reviewed_on": "2026-10-25",
+        "source": "https://www.php.net/archive/2026.php#2026-10-21-5",
+        "release_evidence": "AT_OR_ABOVE_UPSTREAM_BASELINE",
+        "worker_coverage": "ONE_OBSERVATION_ONLY",
+        "exploit_tested": false,
+        "notes": [
+          "Matches the reviewed release threshold, not proof of exploit resistance or complete deployment coverage.",
+          "The Oct 23 serializer-switch condition requires application/configuration review; this snapshot cannot detect it.",
+          "Self-reported process data; sample every relevant pool/image/worker cohort and verify package provenance independently."
+        ],
+        "upload_progress_review": "DISABLED_IN_OBSERVATION"
+      },
+      "image_id": "sha256:5e193a2fe0044f907b7b7379936e65b4e29803d9677a2fd9f1ef4bce8a27a09b",
+      "base_image": "php@sha256:c6527b06c772a2c3cae648ce58c23a2a12ed2fed41cdfb0619ea64be008cc601",
+      "repo_digests": [
+        "drama-queen-lab-after@sha256:5e193a2fe0044f907b7b7379936e65b4e29803d9677a2fd9f1ef4bce8a27a09b"
+      ]
+    }
+  },
+  "checks": {
+    "http_functionality": 2,
+    "web_sapi": 2,
+    "release_decisions": 2,
+    "upload_control": 1
+  }
+}

@@ -13,6 +13,8 @@ Scope: mostly AI/ML-adjacent CVEs (model-serving frameworks, inference libraries
 - [`llama-cpp-python-cve-2024-34359`](./llama-cpp-python-cve-2024-34359/) — unsandboxed Jinja2 chat-template rendering (SSTI, CWE-94/1336). Fixed in `0.2.72`.
 - [`ray-cve-2025-62593`](./ray-cve-2025-62593/) — Ray 2.59.0 Jobs API authentication configuration: direct local HTTP probes with token authentication disabled and enabled. This is not a reproduction of CVE-2025-62593's browser/DNS-rebinding path, patched upstream in 2.52.0. The historical directory name remains for existing links; see the case's scope correction.
 
+- [`php-drama-queen-lab`](./php-drama-queen-lab/) — October 2026 PHP release-evidence triage. Two digest-pinned Apache images, 12 offline policy tests, and a real loopback HTTP before/after record. This is a patch-evidence workflow, not an RCE reproduction or production clearance.
+
 ## Standing rules for every case added here
 
 - Versions and configurations are pinned and inspected directly. A configuration comparison must not be described as a reproduction of a separately patched CVE.
